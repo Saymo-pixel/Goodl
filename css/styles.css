@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
+
+h2 {
+  color:rgb(17, 18, 19);
+}
+ h7 {
+  margin-left: 14px;
+}
+header h2 {
+  color:rgb(6, 7, 7);
+}
+footer h4 {
+  color:#0b010e;
+  font-size: 15px;
+  
+  
+}
+footer {
+  background-image: linear-gradient(to bottom ,  #4dcdff , #b0b9b51f);
+  padding:20px 0;
+}
+
+.jumbotron {
+  margin:0;
+  padding:20px;
+  background-image: linear-gradient( to top ,rgba(22, 75, 98, 0.767) , #fbffff);
+  color : #070707 ;
+  
+}
+.row-content {
+  padding:50px 0;
+  border-bottom:1px ridge;
+  min-height:200px;
+}
+
+.navbar{
+  background-color:#168a8a62;
+  padding:30px;
+}
+/*nav component*/
+/*.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
+}*/
+.carousel-caption {
+  
+  background-color: #269c9662;
+   
+  color: #c0ecea;
+  }
+
+.carousel {
+  border: solid #ffdb4d88;
+  
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
